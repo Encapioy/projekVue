@@ -1,0 +1,139 @@
+nav {
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+/* sidebar  */
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 0;
+    background: #fff;
+    transition: all 0.5s ease;
+    z-index: 100;
+}
+
+.sidebar .text {
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    opacity: 1;
+}
+
+.sidebar li {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.sidebar ul hr {
+    margin-left: -30px;
+}
+.sidebar li .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    font-size: 20px;
+}
+
+.sidebar li .icon,
+.sidebar li .text {
+    color: #707070;
+    transition: all 0.2s ease;
+}
+
+.sidebar header {
+    position: relative;
+}
+
+header .header-icon {
+    margin-left: 77px;   
+    margin-top: 11px;
+    width: 30px;
+    height: 30px;
+}
+    
+header .header-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.header-text p {
+    margin-top: -2px;
+    font-size: 13px;
+}
+
+.header-text hr {
+    margin-top: -2px ;
+    margin-left: -10px;
+}
+
+.sidebar .menu {
+    margin-top: 10px;
+}
+
+.sidebar li a {
+    height: 100%;
+    width: 100%;
+    margin-left: -25px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+}
+
+.sidebar li a:hover {
+    background: #ccc;
+}
+
+.sidebar li :hover .icon,
+.sidebar li :hover .text {
+    color: #fff;
+}
+
+.sidebar .menu-bar {
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* bottom nav  */
+
+.bottom-nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    overflow-x: auto;
+    display: flex;
+    z-index: 1000;
+}
+
+.bot-nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #707070;
+    text-decoration: none;
+    -webkit-top-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}

@@ -1,0 +1,32 @@
+.payment-form {
+    width: 100%;
+    border: 1px solid #cacaca;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.payment-form input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #cacaca;
+    line-height: 40px;
+}
+
+.payment-form i {
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.name {
+    margin-bottom: 30px;
+}
+
+.nominal span {
+    width: 40%;
+    font-size: 14px;
+}
+
+.pay-button button {
+    text-transform: uppercase;
+} 
